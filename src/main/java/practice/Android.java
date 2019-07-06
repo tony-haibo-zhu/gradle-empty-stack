@@ -1,6 +1,12 @@
 package practice;
 
 public class Android extends Mobile {
+    public Android() {
+    }
+
+    public Android(String name, String color, String brand) {
+        super(name, color, brand);
+    }
 
     @Override
     public String call(String msg) {
